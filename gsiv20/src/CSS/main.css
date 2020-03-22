@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;
+}
+
+.btn:hover,.btn:focus{
+    box-shadow: none;
+}
+
+.btn-home{
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    font-size: 18px;
+    color: #666666;
+}
+
+.outerBox{
+    padding: 70px 10px 10px;
+    position: relative;
+}
+
+.top-nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 20px;
+    box-shadow: 0 2px rgba(0, 0, 0, .2);
+}
+
+.contentList{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.contentList li{
+    flex: 0 0 20%;
+    max-width: 20%;
+    padding: 10px;
+}
+
+.customCard{
+    cursor: pointer;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, .3);
+    transition: all .2s ease;
+}
+
+.customCard{
+    transition: all .2s ease;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+}
+
+.customCard .cardImg{
+    background-color: #dddddd;
+    height: 200px;
+    border-radius: 8px 8px 0 0;
+}
+
+.customCard .cardContent{
+    padding: 10px;
+}
+
+.customCard .cardContent h4{
+    margin-bottom: 10px;
+    color: #000000;
+    font-size: 14px;
+
+}
+
+.customCard .cardContent h6{
+    text-align: right;
+    margin-bottom: 10px;
+    color: #666666;
+    font-size: 14px;
+}
+
+.customCard .cardContent p{
+    margin: 0;
+    color: #4a4a4a;
+    font-size: 14px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.btn:hover,.btn:focus{
+    box-shadow: none;
+}
+
+.btn-home{
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    font-size: 18px;
+    color: #666666;
+}
+
+.outerBox{
+    padding: 70px 10px 10px;
+    position: relative;
+}
+
+.top-nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 20px;
+    box-shadow: 0 2px rgba(0, 0, 0, .2);
+}
+
+
+.customCard .cardImg{
+    background-color: #dddddd;
+    height: 200px;
+    border-radius: 2px;
+}
+
+.customCard .cardImg img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.customCard .cardContent{
+    padding: 10px;
+}
+
+.customCard .cardContent h4{
+    margin-bottom: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #000000;
+    font-size: 15px;
+}
+
+.customCard .cardContent h4 strong{
+    color: #666666;
+    font-weight: 400;
+} 
+
+.customCard .cardContent p{
+    overflow: hidden;
+    white-space: nowrap;
+    margin-bottom: 10px;
+    color: #4a4a4a;
+    font-size: 14px;
+}
